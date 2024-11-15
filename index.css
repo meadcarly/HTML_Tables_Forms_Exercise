@@ -1,0 +1,53 @@
+*{
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    min-height: 100vw;
+    margin: 0;
+    background: linear-gradient(to bottom right, #338, #111);
+    color: #eee;
+    padding: 24px;
+}
+
+main{
+    max-width: 900px;
+    margin: 24px auto;
+    padding: 10px;
+    text-align: center;
+}
+
+section{
+    border-radius: 8px;
+    background: linear-gradient(to bottom right, #ddd, #fff);
+    box-shadow: 5px 5px 10px #000;
+    color: #111;
+    padding: 12px;
+    margin: 12px 0;
+}
+
+fieldset{
+    border: none;
+}
+label, input{
+    text-align: left;
+    display: block;
+    padding: 5px;
+    margin: 5px auto;
+    width: 100%;
+    max-width: 400px;
+    border: none;
+}
+
+input{
+    border-bottom: 1px inset #0094c8;
+}
+
+input:focus{
+    outline: 3px solid #0094c8;
+}
